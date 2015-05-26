@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# STREAM_ADDRESS points directly to the Icecast stream.
+STREAM_ADDRESS="http://marco.org:8001/listen"
+
+# CHECK_INTERVAL defines the polling interval, in seconds.
+CHECK_INTERVAL=2
+
+# STREAMING_EN_US defines the message displayed to the user when
+# the Icecast server is discovered to be online, twice.
+STREAMING_EN_US="ATP is now streaming."
+
+# OFFLINE_EN_US defines the message displayed to the user when the
+# Icecast server is discovered to be offline.
+OFFLINE_EN_US="ATP is offline."
+
+# SERVICE_ICON_NAME defines a path to an icon to be used in terminal-
+# notifier if the streaming service comes online.
+SERVICE_ICON_NAME="atp.png"
